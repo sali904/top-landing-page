@@ -1,0 +1,30 @@
+.container {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 28px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    margin-right: auto;
+}
+
+nav {
+    margin-left: auto;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+a {
+    text-decoration: none;
+}
