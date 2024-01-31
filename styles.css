@@ -1,12 +1,14 @@
 .container {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 100vw;
+    max-height: 100vh;
+    margin: 20px;
     padding: 28px;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
 }
 
 header {
+    padding: 5px;
     display: flex;
     align-items: center;
 }
@@ -22,9 +24,67 @@ nav {
 ul {
     list-style-type: none;
     display: flex;
+    justify-content: space-between;
+    gap: 25px;
 
 }
 
 a {
     text-decoration: none;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.site-introduction {
+    margin: 20px;
+    padding: 50px;
+    gap: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1 1 15%;
+}
+
+.introduction {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.main-image {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gallery {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-section, .bottom-section {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 0 1 auto;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.card {
+    max-width: 25%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
