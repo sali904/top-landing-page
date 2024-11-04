@@ -13,6 +13,8 @@ header {
 
 h1 {
     margin-right: auto;
+    font-size: 24px;
+    color: #F9F8FA;
 }
 
 nav {
@@ -24,6 +26,7 @@ ul {
     display: flex;
     justify-content: space-between;
     gap: 25px;
+    color: #E5E7EB;
 
 }
 
@@ -36,8 +39,16 @@ main {
     flex-direction: column;
 }
 
-.site-introduction {
-    margin: 20px;
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header, footer, .hero {
+    background-color: #1f2937;
+}
+
+.hero {
+    margin: auto;
     padding: 50px;
     gap: 50px;
     display: flex;
