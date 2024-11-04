@@ -1,8 +1,6 @@
 .container {
     max-width: 100vw;
     max-height: 100vh;
-    margin: 20px;
-    padding: 28px;
     display: flex;
     flex-flow: column nowrap;
 }
@@ -88,3 +86,9 @@ main {
     align-items: center;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style:  light italic;
+    color: #1F2937;
+}
